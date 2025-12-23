@@ -40,15 +40,11 @@ __3. Dataset Description__
 
 The dataset used in this project is the SMS Spam Collection Dataset, which contains a collection of labeled SMS messages.
 
-Dataset Characteristics:
+➤ Total Instances: 5,572 messages.
 
-Total Instances: 5,572 messages.
+➤ label: Indicates whether the message is spam or ham.
 
-Attributes:
-
-label: Indicates whether the message is spam or ham.
-
-message: The actual text content of the message.
+➤ message: The actual text content of the message.
 
 The dataset is balanced enough to allow effective learning and is widely used for benchmarking spam detection algorithms.
 
@@ -60,9 +56,9 @@ The project follows a standard machine learning pipeline, consisting of the foll
 
 Labels were converted into numeric format:
 
-Spam → 1
+➤ Spam → 1
 
-Ham → 0
+➤ Ham → 0
 
 Text data was cleaned implicitly using vectorization techniques that remove stop words.
 
@@ -74,9 +70,9 @@ Since machine learning models cannot directly process text, the TF-IDF (Term Fre
 
 The dataset was split into:
 
-75% Training data
+➤ 75% Training data
 
-25% Testing data
+➤ 25% Testing data
 
 This ensures that the model is evaluated on unseen data to measure its generalization capability.
 
@@ -84,11 +80,11 @@ This ensures that the model is evaluated on unseen data to measure its generaliz
 
 The Multinomial Naive Bayes algorithm was selected because:
 
-It is computationally efficient.
+➤ It is computationally efficient.
 
-It performs well on text classification problems.
+➤ It performs well on text classification problems.
 
-It works effectively with TF-IDF features.
+➤ It works effectively with TF-IDF features.
 
 __5. Model Implementation__
 
@@ -108,11 +104,11 @@ Accuracy achieved: ~97%
 
 The classification report includes:
 
-Precision
+➤ Precision
 
-Recall
+➤ Recall
 
-F1-score
+➤ F1-score
 
 These metrics provide deeper insights into how well the model identifies spam and non-spam messages.
 
@@ -120,13 +116,13 @@ These metrics provide deeper insights into how well the model identifies spam an
 
 A confusion matrix was used to visualize:
 
-True Positives (correct spam detection)
+➤ True Positives (correct spam detection)
 
-True Negatives (correct ham detection)
+➤ True Negatives (correct ham detection)
 
-False Positives
+➤ False Positives
 
-False Negatives
+➤ False Negatives
 
 This helped analyze misclassification patterns.
 
@@ -136,31 +132,31 @@ The model demonstrated high accuracy and reliability in detecting spam messages.
 
 Some minor misclassifications occurred due to:
 
-Short or ambiguous messages
+➤ Short or ambiguous messages
 
-Overlapping vocabulary between spam and ham messages
+➤ Overlapping vocabulary between spam and ham messages
 
-Overall, the results indicate that machine learning is highly effective for spam detection tasks.
+➤ Overall, the results indicate that machine learning is highly effective for spam detection tasks.
 
 __8. Applications__
 
 The developed model can be applied in:
 
-Email filtering systems
+➤ Email filtering systems
 
-SMS spam detection
+➤ SMS spam detection
 
-Customer support automation
+➤ Customer support automation
 
-Social media content moderation
+➤ Social media content moderation
 
 __9. Limitations__
 
-The model relies on labeled data and may struggle with new spam patterns.
+➤ The model relies on labeled data and may struggle with new spam patterns.
 
-Performance may degrade if language or vocabulary changes significantly.
+➤ Performance may degrade if language or vocabulary changes significantly.
 
-The dataset contains SMS messages, which may differ slightly from real-world email data.
+➤ The dataset contains SMS messages, which may differ slightly from real-world email data.
 
 __10. Conclusion__
 
