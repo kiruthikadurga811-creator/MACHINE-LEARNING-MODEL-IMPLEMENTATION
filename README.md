@@ -40,7 +40,7 @@ __3. Dataset Description__
 
 The dataset used in this project is the SMS Spam Collection Dataset, which contains a collection of labeled SMS messages.
 
-Dataset Characteristics:
+~ Dataset Characteristics:
 
 Total Instances: 5,572 messages
 
