@@ -56,7 +56,7 @@ __4. Methodology__
 
 The project follows a standard machine learning pipeline, consisting of the following steps:
 
-###### 4.1 Data Preprocessing :
+##### 4.1 Data Preprocessing :
 
 Labels were converted into numeric format:
 
@@ -66,11 +66,11 @@ Ham → 0
 
 Text data was cleaned implicitly using vectorization techniques that remove stop words.
 
-4.2 Feature Extraction
+##### 4.2 Feature Extraction
 
 Since machine learning models cannot directly process text, the TF-IDF (Term Frequency–Inverse Document Frequency) technique was used to convert textual data into numerical feature vectors. TF-IDF emphasizes important words while reducing the impact of commonly used terms.
 
-4.3 Train-Test Split
+##### 4.3 Train-Test Split
 
 The dataset was split into:
 
@@ -80,7 +80,7 @@ The dataset was split into:
 
 This ensures that the model is evaluated on unseen data to measure its generalization capability.
 
-4.4 Model Selection
+##### 4.4 Model Selection
 
 The Multinomial Naive Bayes algorithm was selected because:
 
@@ -98,13 +98,13 @@ __6. Model Evaluation__
 
 The performance of the model was evaluated using the following metrics:
 
-6.1 Accuracy
+##### 6.1 Accuracy
 
 Accuracy measures the overall correctness of the model.
 
 Accuracy achieved: ~97%
 
-6.2 Classification Report
+##### 6.2 Classification Report
 
 The classification report includes:
 
@@ -116,7 +116,7 @@ F1-score
 
 These metrics provide deeper insights into how well the model identifies spam and non-spam messages.
 
-6.3 Confusion Matrix
+##### 6.3 Confusion Matrix
 
 A confusion matrix was used to visualize:
 
