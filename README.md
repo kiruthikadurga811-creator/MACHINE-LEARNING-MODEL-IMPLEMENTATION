@@ -56,7 +56,7 @@ __4. Methodology__
 
 The project follows a standard machine learning pipeline, consisting of the following steps:
 
-### 4.1 Data Preprocessing :
+##### 4.1 Data Preprocessing :
 
 Labels were converted into numeric format:
 
