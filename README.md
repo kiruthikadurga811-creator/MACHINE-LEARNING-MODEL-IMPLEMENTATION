@@ -40,15 +40,15 @@ __3. Dataset Description__
 
 The dataset used in this project is the SMS Spam Collection Dataset, which contains a collection of labeled SMS messages.
 
-~ Dataset Characteristics:
+Dataset Characteristics:
 
-Total Instances: 5,572 messages
+Total Instances: 5,572 messages.
 
 Attributes:
 
-label: Indicates whether the message is spam or ham
+label: Indicates whether the message is spam or ham.
 
-message: The actual text content of the message
+message: The actual text content of the message.
 
 The dataset is balanced enough to allow effective learning and is widely used for benchmarking spam detection algorithms.
 
@@ -56,7 +56,7 @@ __4. Methodology__
 
 The project follows a standard machine learning pipeline, consisting of the following steps:
 
-4.1 Data Preprocessing :
+###4.1 Data Preprocessing :
 
 Labels were converted into numeric format:
 
